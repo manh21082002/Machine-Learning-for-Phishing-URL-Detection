@@ -1,20 +1,20 @@
 # Machine-Learning-for-Phishing-URL-Detection
-- **Data Source**
+ **Data Source**
 * Phishtank.org
 * Hackertarget.com
-- **Description**
+ **Description**
 * This project aims to detect fraudulent URLs using Machine Learning models. To enhance the detection process, Natural Language Processing (NLP) techniques are applied. The combination of these methods improves the ability to identify potentially deceptive URLs in a sophisticated and user-friendly manner.
-- **Objective**
+ **Objective**
 Identify the algorithm and model that yield the best results based on 4 evaluation criteria:
 * Accuracy
 * Precision
 * Recall
 * F1 Score
-- **Data**
+ **Data**
 * The data consists of 2 fields: URL and labels collected from two sources, Phishtank.org and Hackertarget.
 * Two natural language processing methods are used: TfidfVectorizer and Countvectorizer.
 Technology Used: Python
-- **Results**
+ **Results**
 Best Model and Processing Method:
 * MultinomialNB trained with the Countvectorizer dataset
   + Accuracy: 0.8578
@@ -36,7 +36,7 @@ Best Model and Processing Method:
  +  Precision: 0.9188
  +   Recall: 0.7396
  +    F1 Score: 0.8412
-- **Conclusion** :
+ **Conclusion** :
  + MultinomialNB (Multinomial Naive Bayes) assumes that the input features are extracted from a multinomial distribution. This is useful in tasks counting the occurrences of words in text
  +  LogisticRegression is based on the logistic distribution and assumes that the probability of a sample belonging to the positive class is described by the sigmoid function of the input features.
  - In this case, MultinomialNB is somewhat more suitable.
