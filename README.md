@@ -1,21 +1,20 @@
 # Machine-Learning-for-Phishing-URL-Detection
  - **Data Source**
-  * Phishtank.org
-  * Hackertarget.com
+   * Phishtank.org
+   * Hackertarget.com
  - **Description**
-  * This project aims to detect fraudulent URLs using Machine Learning models. To enhance the detection process, Natural Language Processing (NLP) techniques are applied. The combination of these methods improves the ability to identify potentially deceptive URLs in a sophisticated and user-friendly manner.
+   * This project aims to detect fraudulent URLs using Machine Learning models. To enhance the detection process, Natural Language Processing (NLP) techniques are applied. The combination of these methods improves the ability to identify potentially deceptive URLs in a sophisticated and user-friendly manner.
  - **Objective**:
 Identify the algorithm and model that yield the best results based on 4 evaluation criteria:
-  * Accuracy
-  * Precision
-  * Recall
-  * F1 Score
+   * Accuracy
+   * Precision
+   * Recall
+   * F1 Score
  - **Data**
-  * The data consists of 2 fields: URL and labels collected from two sources, Phishtank.org and Hackertarget.
-  * Two natural language processing methods are used: TfidfVectorizer and Countvectorizer.
+   * The data consists of 2 fields: URL and labels collected from two sources, Phishtank.org and Hackertarget.
+   * Two natural language processing methods are used: TfidfVectorizer and Countvectorizer.
 - **Technology Used:** Python
-- **Results**
- - Best Model and Processing Method:
+- **Results** : Best Model and Processing Method
   * MultinomialNB trained with the Countvectorizer dataset
     + Accuracy: 0.8578
     + Precision: 0.8941
