@@ -15,7 +15,7 @@ Identify the algorithm and model that yield the best results based on 4 evaluati
   * Two natural language processing methods are used: TfidfVectorizer and Countvectorizer.
 - **Technology Used:** Python
 - **Results**
-Best Model and Processing Method:
+ - Best Model and Processing Method:
   * MultinomialNB trained with the Countvectorizer dataset
     + Accuracy: 0.8578
     + Precision: 0.8941
