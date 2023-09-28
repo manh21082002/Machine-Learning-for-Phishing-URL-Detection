@@ -30,7 +30,7 @@ Identify the algorithm and model that yield the best results based on 4 evaluati
     + Precision: 0.9600
     + Recall: 0.7406
     + F1 Score: 0.8362
- * LogisticRegression trained with the TfidfVectorizer dataset
+  * LogisticRegression trained with the TfidfVectorizer dataset
     + Accuracy: 0.8487
     + Precision: 0.9188
     + Recall: 0.7396
