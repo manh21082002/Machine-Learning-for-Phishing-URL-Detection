@@ -20,21 +20,21 @@ Identify the algorithm and model that yield the best results based on 4 evaluati
     + Precision: 0.8941
     + Recall: 0.8248
     + F1 Score: 0.8581
-* MultinomialNB trained with the TfidfVectorizer dataset
+  * MultinomialNB trained with the TfidfVectorizer dataset
     + Accuracy: 0.8633
     + Precision: 0.8983
     + Recall: 0.8318
     + F1 Score: 0.8638
-* LogisticRegression trained with the Countvectorizer dataset
-   + Accuracy: 0.8487
-   + Precision: 0.9600
-   + Recall: 0.7406
-   + F1 Score: 0.8362
-* LogisticRegression trained with the TfidfVectorizer dataset
-   + Accuracy: 0.8487
-   + Precision: 0.9188
-   + Recall: 0.7396
-   + F1 Score: 0.8412
+  * LogisticRegression trained with the Countvectorizer dataset
+    + Accuracy: 0.8487
+    + Precision: 0.9600
+    + Recall: 0.7406
+    + F1 Score: 0.8362
+ * LogisticRegression trained with the TfidfVectorizer dataset
+    + Accuracy: 0.8487
+    + Precision: 0.9188
+    + Recall: 0.7396
+    + F1 Score: 0.8412
  - **Conclusion** :
    + MultinomialNB (Multinomial Naive Bayes) assumes that the input features are extracted from a multinomial distribution. This is useful in tasks counting the occurrences of words in text
    +  LogisticRegression is based on the logistic distribution and assumes that the probability of a sample belonging to the positive class is described by the sigmoid function of the input features.
